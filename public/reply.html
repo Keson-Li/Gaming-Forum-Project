@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View Replies</title>
+        <style>
+            #msg{
+                position: fixed;
+                bottom:0;
+                left: 0;
+            }
+            #send{
+                position: fixed;
+                bottom:0;
+                left: 200px;
+            }
+            #logout{
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+            #hua{
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 5vw;
+                height: auto;
+                display: block;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <img id="hua" src="/imgs/hua.jpg" />
+        <br>
+        <input type="text" id="msg" />
+        <button id="send">Reply</button>
+        <div id="topic"></div>
+        <div id="display"></div>
+        
+        <button id="logout">Logout</button>
+        
+    </body>
+    <script src="/scripts/replybundle.js"></script>
+</html>

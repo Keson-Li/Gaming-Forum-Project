@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posting</title>
+        <style>
+            #logout{
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+            #hua{
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 5vw;
+                height: auto;
+                display: block;
+            }
+            #userinput{
+                display: block;
+                margin: 0 0 50px 0;
+            }
+          
+        </style>
+    </head>
+    
+    <body>
+        <img id="hua" src="/imgs/hua.jpg" />
+        <div id="userinput">
+            <input type="text" placeholder="input your topic title" id="title" />
+            <input id="desc" placeholder="input your description" type="text"/>
+            <button id="summit">POST</button>
+        </div>
+        
+        <button id="logout">Logout</button>
+    </body>
+    <script src="/scripts/postbundle.js"></script>
+</html>
